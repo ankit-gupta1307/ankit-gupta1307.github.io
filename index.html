@@ -18,8 +18,7 @@
 					<!-- Header html -->
 						<header class="header">
 							<div class = "toolbar">
-							
-
+						
 						<!--<div class="mobile-nav">
 								 <div class="menu-btn" id="menu-btn">
 								 <div></div>
@@ -137,15 +136,16 @@
 					<div class = "feed-content-box"> CITY FEED </div>
 					<div class= "post-section">
 						<form method="post"> 
-							<textarea onkeyup="adjustHeight(this)" type ="text" rows ="4" cols = "50" class="news-post" placeholder = "Report Now"/></textarea>	
-							
+							<textarea onkeyup="adjustHeight(this)" type ="text" rows ="2" cols = "50" class="news-post" placeholder = "Report Now"/></textarea>	
 						</form>
 						
 						<div class = "buttons-section"> 
 							<label for = "file-input"> <img src = "Camera.png"> </label>
 							<button class = "report"> Report </button>
 							<input style ="display: none;" id = "file-input" type="file" onchange="document.getElementById('blah').src=window.URL.createObjectURL(this.files[0])"><br>
-							<img id="blah" style = "margin: 1% 25% 0% 25%; border-radius: 10px; max-width: 300px; max-height: 300px; " />
+							<figure style = "max-width: 95%;">
+								<img id="blah" style = "margin: 10px 1% 0 1%; border-radius: 10px; max-width: 100%;" />
+							</figure>
 						</div>
 					</div>
 					

@@ -37,11 +37,12 @@
 					reader.readAsDataURL(file);
 				  }
 				  }
-		function adjustHeight(el){
-			el.style.height = (el.scrollHeight > el.clientHeight) ? (el.scrollHeight)+"px" : "60px";
-		}
+				  
+			function adjustHeight(el){
+				el.style.height = (el.scrollHeight > el.clientHeight) ? (el.scrollHeight)+"px" : "20px";
+			}
 		
-			var soDelhiApi = 'https://www.reweyou.in/chauhan.php' ;
+			var reweyou = 'https://www.reweyou.in/chauhan.php' ;
 			var time = Date.now();
 			
 		/* Making the ajax request to the Api */	
@@ -50,7 +51,7 @@
 				type: 'GET',
 				dataType: "json",
 				cache: false,
-				url: soDelhiApi,
+				url: reweyou,
 				
 				success: function(data) {
 					console.log(data.length);
