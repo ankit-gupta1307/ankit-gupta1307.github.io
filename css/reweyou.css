@@ -625,17 +625,17 @@ div.points{
 	.search {
 		order: 10;
 		width: 95vw;
-		font-size: 20px;
+		font-size: 15px;
 		margin-bottom: 5px;
-		margin-top: 0;
-		height: 28px;
+		margin-top: 5px;
+		height: 33px;
 		margin-left: 2vw;
 		margin-right: 2vw;
 		padding-left: 0;
 	}
 	
 	.search input {
-		height: 20px;
+		height: 24px;
 		background: white url("http://cssdeck.com/uploads/media/items/5/5JuDgOa.png") 8px 3px no-repeat;
 	}
   
@@ -712,14 +712,14 @@ div.points{
 		font-size: 15px;
 		margin-bottom: 5px;
 		margin-top: 10px;
-		height: 28px;
+		height: 33px;
 		margin-left: 2vw;
 		margin-right: 2vw;
 		padding-left: 0;
 	}
 	
 	.search input {
-		height: 20px;
+		height: 24px;
 		background: white url("http://cssdeck.com/uploads/media/items/5/5JuDgOa.png") 8px 3px no-repeat;
 	}
 .google-play {
