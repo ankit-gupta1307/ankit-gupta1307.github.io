@@ -445,20 +445,19 @@ div.feed-image img {
 
 div.feed-card .feed-supporting-text {
     margin: 2.5% 2.5% 2.5% 2.5%;
-    color: RGB(87,87,87);
+    color: #000;
 }
 
-div.feed-card .feed-supporting-text h5 {
+div.feed-card .feed-supporting-text span .tag {
 	margin: 1.5% 0% 1.5% 0%;
     font-size: 1.3em;
-    font-weight: 700;
+    font-weight: 600;
 	   
 }
 
 div.feed-card .feed-supporting-text span {
 	margin: 1.5% 0% 1.5% 0%;
     font-size: 1em;
-    color: RGB(148,148,148);
 }
 
 

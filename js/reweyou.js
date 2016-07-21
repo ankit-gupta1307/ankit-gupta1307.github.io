@@ -119,7 +119,7 @@
 									'<img src="images/logo_tansparent.png" class="author-img">' + '</div>' + '<div class = "author-name">' + 
 									'<strong> Reweyou </strong>' + '<br>' + '<span class = "feed-time">' + title + '</span>' + '</div>' + '</div>' + 
 									'<div class ="feed-main-item" data-toggle="modal" data-target="'+target+'"> ' + '<div class = "feed-image" > ' +  '<img src="'+imageSrc+'">' + '</div>' +
-									'<div class = "feed-supporting-text">' +  '<h5 class = "feed-title">' + category + '</h5>' +  
+									'<div class = "feed-supporting-text">' +  '<span class = "tag">' + category + '</span>' + '<br>' + 
 									'<span class = "feed-description">' + description + '</span>' + '</div>' +  '</div>'+ '</div>');
 					
 					/* Checking the feed data if it's sponsored or not and then appending to the feed */
