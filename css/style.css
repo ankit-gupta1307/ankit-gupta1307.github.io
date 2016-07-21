@@ -1,3 +1,5 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -22,7 +24,7 @@ body { background: #fff; }
 header, footer, .container { max-width: 45em; margin: 0 auto; }
 
 header { padding: 0 0.5em; color: #C90B0B; }
-.profile_pic { border-radius: 40px; float: left; }
+.profile_pic { border-radius: 40px; float: left; width: 70px; height: 70px;}
 .hp { font-size:1.5em; font-weight: bold; padding-left: 4em;}
 .hs { font-size: 0.8em; font-weight: normal;}
 
